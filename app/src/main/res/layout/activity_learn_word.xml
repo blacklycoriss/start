@@ -193,7 +193,7 @@
             app:layout_constraintStart_toEndOf="@+id/imageView"
             app:layout_constraintTop_toTopOf="@+id/imageView" />
 
-        <Button
+        <android.widget.Button
             android:layout_width="310dp"
             android:layout_height="58dp"
             android:text="continue"
@@ -201,6 +201,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginBottom="24dp"
             android:textColor="#0EAD69"
+            android:background="@drawable/shape_button_footer"
             android:backgroundTint="@android:color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
