@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -11,6 +12,18 @@
         android:background="@android:color/transparent"
         android:layout_marginTop="44dp"
         android:layout_marginStart="24dp"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="164dp"
+        android:textSize="50sp"
+        android:fontFamily=""
+        android:text="Galaxy"
+        android:layout_gravity="center_horizontal"
+        tools:text="AEZAKMY"
         />
 
 </LinearLayout>
