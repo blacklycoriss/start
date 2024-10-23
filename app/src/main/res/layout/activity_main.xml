@@ -5,23 +5,27 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:weightSum="4"
     tools:context=".MainActivity">
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="end|center"
-        android:gravity="bottom|start"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
         android:text="Open Gate"
         />
     <Button
         android:layout_width="200dp"
         android:layout_height="70dp"
+        android:layout_weight="1"
         android:text="Close Gate"
         />
     <Button
         android:layout_width="200dp"
         android:layout_height="70dp"
+        android:layout_weight="1"
         android:text="PUSH ME"
         />
 
