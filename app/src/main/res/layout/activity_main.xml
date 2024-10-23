@@ -8,9 +8,20 @@
     tools:context=".MainActivity">
 
     <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end|center"
+        android:gravity="bottom|start"
+        android:text="Open Gate"
+        />
+    <Button
         android:layout_width="200dp"
         android:layout_height="70dp"
-        android:layout_marginTop="200dp"
+        android:text="Close Gate"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
         android:text="PUSH ME"
         />
 
