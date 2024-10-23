@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:src="@drawable/ic_close"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="24dp"
         android:layout_marginStart="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginHorizontal="32dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="70dp"
         android:fontFamily=""
         android:text="Galaxy"
         android:textSize="50sp"
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -177,7 +177,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
-            android:layout_marginTop="18dp"
+            android:layout_marginTop="15dp"
             android:src="@drawable/ic_like"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -195,7 +195,7 @@
 
         <android.widget.Button
             android:layout_width="310dp"
-            android:layout_height="58dp"
+            android:layout_height="50dp"
             android:text="continue"
             android:textAllCaps="true"
             android:layout_marginTop="12dp"
