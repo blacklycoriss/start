@@ -26,4 +26,19 @@
         tools:text="AEZAKMY"
         />
 
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="32dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </LinearLayout>
+
 </LinearLayout>
